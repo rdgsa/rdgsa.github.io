@@ -1,5 +1,4 @@
 {
-  "Contact" : [ {
     "Id" : "45900",
     "URI" : "https://www.usa.gov/api/USAGovAPI/corporate/contacts.json/contact/45900",
     "Language" : "en",
@@ -11875,5 +11874,4 @@
       "Description" : "StubHub, Inc",
       "Language" : "en"
     } ]
-  } ]
-}
+  } 
