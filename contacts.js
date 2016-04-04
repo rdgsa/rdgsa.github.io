@@ -25,7 +25,7 @@ var drawTable = function(data, div) {
 };
 
 $(document).ready(function() {
-  $.getJSON("orders.json", function(data) {
+  $.getJSON("contacts.json", function(data) {
     console.log(data);
     drawTable(data, "#current_order");
   });
