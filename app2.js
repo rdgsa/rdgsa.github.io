@@ -25,7 +25,7 @@ var drawTable = function(data, div) {
 };
 
 $(document).ready(function() {
-  $.getJSON("http://rest-service.guides.spring.io/greeting", function(data) {
+  $.getJSON("https://www.usa.gov/api/USAGovAPI/corporate/contacts.json/contacts", function(data) {
     console.log(data);
     drawTable(data, "#current_order");
   });
