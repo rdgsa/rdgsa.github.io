@@ -25,7 +25,7 @@ var drawTable = function(data, div) {
 };
 
 $(document).ready(function() {
-  $.getJSON("http://www.usa.gov/api/USAGovAPI/corporate/contacts.json/contacts", function(data) {
+  $.getJSON("http://gsa.gov/data.json", function(data) {
     console.log(data);
     drawTable(data, "#current_order");
   });
